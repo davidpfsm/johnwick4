@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+  margin-left: 4px;
+  margin-right: 14px;
+  background-color: black;
+  list-style: none;
+  text-decoration: none;
+}
+ 
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width:60%;
+}
+
+ul {                                                                                                        
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 28px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover{
+    color: #d21617;
+}
+
+#logo {
+    width: 140px;
+    height: auto;
+}
+
+.scenes-card-container {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+    
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url("https://www.cinemaepipoca.com.br/wp-content/uploads/2023/02/john-wick-4-lawrence-e-keanu.jpg");
+}
+
+.banner-2 {
+    background-image: url("https://www.cinemaepipoca.com.br/wp-content/uploads/2023/02/john-wick-4-keanu-e-diretor.jpg");
+}
+
+.banner-3 {
+    background-image: url("https://www.cinemaepipoca.com.br/wp-content/uploads/2023/02/john-wick-4.jpg");
+}
+
+.banner-4 {
+    background-image: url("https://www.cinemaepipoca.com.br/wp-content/uploads/2023/02/john-wick-4-donnie-yen.jpg");
+}
+
+.banner-5 {
+    background-image: url("https://www.cinemaepipoca.com.br/wp-content/uploads/2023/02/john-wick-4-2.jpg");
+}
+
+.banner-6 {
+    background-image: url("https://www.cinemaepipoca.com.br/wp-content/uploads/2023/02/john-wick-4-3.jpg");
+}
+
+.banner-7 {
+    background-image: url("https://www.cinemaepipoca.com.br/wp-content/uploads/2023/02/john-wick-4-lawrence-fishburne.jpg");
+}
+
+.banner-8 {
+    background-image: url("https://www.cinemaepipoca.com.br/wp-content/uploads/2023/02/john-wick-4-5.jpg");
+}
+
+.banner-9 {
+    background-image: url("https://www.cinemaepipoca.com.br/wp-content/uploads/2023/02/john-wick-4-6.jpg");
+}
+
+footer {
+    height: 300px;
+    font-size: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 800px ){
+    .footer-navigation {
+        display: block;
+    }
+    
+    nav {
+        display: none;
+    }
+
+    #logo {
+        width: 80px;
+    }
+    
+    .cards-content {
+        width: 100%;
+        display: block;
+        row-gap: 40px;
+        column-gap: 40px;
+    }
+    
+    .card {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .footer-list {
+        font-size: 12px;
+    }
+        
+    li {
+        font-size: 12px;
+    }
+    
+    footer{
+        font-size: 12px;
+    }
+}
+
+       
+
+    
+    
+    
+        
+        
+    
+
+
+
+        
+
+        
+     
+
+
+  
+
+
+    
+
+
